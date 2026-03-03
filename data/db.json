@@ -1,0 +1,535 @@
+{
+  "categories": [
+    { "id": "phones", "slug": "phones", "title": "Phones" },
+    { "id": "audio", "slug": "audio", "title": "Audio" },
+    { "id": "gaming", "slug": "gaming", "title": "Gaming" },
+    { "id": "laptops", "slug": "laptops", "title": "Laptops" },
+    { "id": "tablets", "slug": "tablets", "title": "Tablets" },
+    { "id": "wearables", "slug": "wearables", "title": "Wearables" }
+  ],
+  "products": [
+    {
+      "id": "p-3001",
+      "title": "iPhone 14 Pro",
+      "categorySlug": "phones",
+      "price": 999,
+      "oldPrice": 1099,
+      "images": ["/images/mock/iphone-14-pro.jpg"],
+      "isFeatured": true,
+      "isBestSeller": true,
+      "createdAt": "2026-02-15T10:00:00.000Z"
+    },
+    {
+      "id": "p-3002",
+      "title": "iPhone 15",
+      "categorySlug": "phones",
+      "price": 899,
+      "images": ["/images/mock/iphone-15.jpg"],
+      "isFeatured": true,
+      "isBestSeller": false,
+      "createdAt": "2026-02-22T10:00:00.000Z"
+    },
+    {
+      "id": "p-3003",
+      "title": "Samsung Galaxy S24",
+      "categorySlug": "phones",
+      "price": 799,
+      "oldPrice": 899,
+      "images": ["/images/mock/galaxy-s24.jpg"],
+      "isFeatured": false,
+      "isBestSeller": true,
+      "createdAt": "2026-02-11T10:00:00.000Z"
+    },
+    {
+      "id": "p-3004",
+      "title": "Google Pixel 8",
+      "categorySlug": "phones",
+      "price": 699,
+      "images": ["/images/mock/pixel-8.jpg"],
+      "isFeatured": false,
+      "isBestSeller": true,
+      "createdAt": "2026-02-05T10:00:00.000Z"
+    },
+    {
+      "id": "p-3005",
+      "title": "OnePlus 12",
+      "categorySlug": "phones",
+      "price": 749,
+      "images": ["/images/mock/oneplus-12.jpg"],
+      "isFeatured": false,
+      "isBestSeller": false,
+      "createdAt": "2026-01-28T10:00:00.000Z"
+    },
+    {
+      "id": "p-3006",
+      "title": "Xiaomi 14",
+      "categorySlug": "phones",
+      "price": 649,
+      "oldPrice": 729,
+      "images": ["/images/mock/xiaomi-14.jpg"],
+      "isFeatured": true,
+      "isBestSeller": false,
+      "createdAt": "2026-02-02T10:00:00.000Z"
+    },
+    {
+      "id": "p-3007",
+      "title": "Nothing Phone (2)",
+      "categorySlug": "phones",
+      "price": 599,
+      "images": ["/images/mock/nothing-phone-2.jpg"],
+      "isFeatured": false,
+      "isBestSeller": false,
+      "createdAt": "2025-12-18T10:00:00.000Z"
+    },
+    {
+      "id": "p-3008",
+      "title": "iPhone SE (2022)",
+      "categorySlug": "phones",
+      "price": 429,
+      "oldPrice": 479,
+      "images": ["/images/mock/iphone-se-2022.jpg"],
+      "isFeatured": false,
+      "isBestSeller": true,
+      "createdAt": "2025-12-05T10:00:00.000Z"
+    },
+    {
+      "id": "p-3009",
+      "title": "Samsung Galaxy A55",
+      "categorySlug": "phones",
+      "price": 399,
+      "images": ["/images/mock/galaxy-a55.jpg"],
+      "isFeatured": false,
+      "isBestSeller": true,
+      "createdAt": "2026-01-10T10:00:00.000Z"
+    },
+    {
+      "id": "p-3010",
+      "title": "Motorola Edge 40",
+      "categorySlug": "phones",
+      "price": 499,
+      "images": ["/images/mock/moto-edge-40.jpg"],
+      "isFeatured": false,
+      "isBestSeller": false,
+      "createdAt": "2025-11-22T10:00:00.000Z"
+    },
+
+    {
+      "id": "p-3011",
+      "title": "AirPods Max",
+      "categorySlug": "audio",
+      "price": 549,
+      "images": ["/images/mock/airpods-max.jpg"],
+      "isFeatured": true,
+      "isBestSeller": false,
+      "createdAt": "2026-02-10T10:00:00.000Z"
+    },
+    {
+      "id": "p-3012",
+      "title": "AirPods Pro (2nd gen)",
+      "categorySlug": "audio",
+      "price": 249,
+      "oldPrice": 279,
+      "images": ["/images/mock/airpods-pro-2.jpg"],
+      "isFeatured": true,
+      "isBestSeller": true,
+      "createdAt": "2026-02-21T10:00:00.000Z"
+    },
+    {
+      "id": "p-3013",
+      "title": "Sony WH-1000XM5",
+      "categorySlug": "audio",
+      "price": 399,
+      "oldPrice": 449,
+      "images": ["/images/mock/sony-xm5.jpg"],
+      "isFeatured": false,
+      "isBestSeller": true,
+      "createdAt": "2026-01-19T10:00:00.000Z"
+    },
+    {
+      "id": "p-3014",
+      "title": "Bose QuietComfort Ultra",
+      "categorySlug": "audio",
+      "price": 429,
+      "images": ["/images/mock/bose-qc-ultra.jpg"],
+      "isFeatured": false,
+      "isBestSeller": false,
+      "createdAt": "2025-12-28T10:00:00.000Z"
+    },
+    {
+      "id": "p-3015",
+      "title": "JBL Flip 6",
+      "categorySlug": "audio",
+      "price": 129,
+      "images": ["/images/mock/jbl-flip-6.jpg"],
+      "isFeatured": false,
+      "isBestSeller": true,
+      "createdAt": "2025-11-30T10:00:00.000Z"
+    },
+    {
+      "id": "p-3016",
+      "title": "Marshall Emberton II",
+      "categorySlug": "audio",
+      "price": 169,
+      "images": ["/images/mock/marshall-emberton-2.jpg"],
+      "isFeatured": false,
+      "isBestSeller": false,
+      "createdAt": "2025-12-12T10:00:00.000Z"
+    },
+    {
+      "id": "p-3017",
+      "title": "Sennheiser Momentum 4",
+      "categorySlug": "audio",
+      "price": 299,
+      "images": ["/images/mock/momentum-4.jpg"],
+      "isFeatured": true,
+      "isBestSeller": false,
+      "createdAt": "2026-01-06T10:00:00.000Z"
+    },
+    {
+      "id": "p-3018",
+      "title": "Beats Studio Pro",
+      "categorySlug": "audio",
+      "price": 349,
+      "oldPrice": 399,
+      "images": ["/images/mock/beats-studio-pro.jpg"],
+      "isFeatured": false,
+      "isBestSeller": true,
+      "createdAt": "2026-02-01T10:00:00.000Z"
+    },
+
+    {
+      "id": "p-3019",
+      "title": "PlayStation 5",
+      "categorySlug": "gaming",
+      "price": 499,
+      "oldPrice": 549,
+      "images": ["/images/mock/ps5.jpg"],
+      "isFeatured": false,
+      "isBestSeller": true,
+      "createdAt": "2026-01-25T10:00:00.000Z"
+    },
+    {
+      "id": "p-3020",
+      "title": "PlayStation 5 Slim",
+      "categorySlug": "gaming",
+      "price": 499,
+      "images": ["/images/mock/ps5-slim.jpg"],
+      "isFeatured": true,
+      "isBestSeller": false,
+      "createdAt": "2026-02-08T10:00:00.000Z"
+    },
+    {
+      "id": "p-3021",
+      "title": "Xbox Series X",
+      "categorySlug": "gaming",
+      "price": 499,
+      "images": ["/images/mock/xbox-series-x.jpg"],
+      "isFeatured": false,
+      "isBestSeller": true,
+      "createdAt": "2025-12-22T10:00:00.000Z"
+    },
+    {
+      "id": "p-3022",
+      "title": "Nintendo Switch OLED",
+      "categorySlug": "gaming",
+      "price": 349,
+      "images": ["/images/mock/switch-oled.jpg"],
+      "isFeatured": false,
+      "isBestSeller": true,
+      "createdAt": "2025-11-18T10:00:00.000Z"
+    },
+    {
+      "id": "p-3023",
+      "title": "Apple Vision Pro",
+      "categorySlug": "gaming",
+      "price": 3499,
+      "images": ["/images/mock/vision-pro.jpg"],
+      "isFeatured": false,
+      "isBestSeller": true,
+      "createdAt": "2026-02-20T10:00:00.000Z"
+    },
+    {
+      "id": "p-3024",
+      "title": "Steam Deck (512GB)",
+      "categorySlug": "gaming",
+      "price": 649,
+      "images": ["/images/mock/steam-deck-512.jpg"],
+      "isFeatured": true,
+      "isBestSeller": false,
+      "createdAt": "2025-12-02T10:00:00.000Z"
+    },
+    {
+      "id": "p-3025",
+      "title": "DualSense Wireless Controller",
+      "categorySlug": "gaming",
+      "price": 69,
+      "images": ["/images/mock/dualsense.jpg"],
+      "isFeatured": false,
+      "isBestSeller": true,
+      "createdAt": "2026-01-03T10:00:00.000Z"
+    },
+    {
+      "id": "p-3026",
+      "title": "Xbox Wireless Controller",
+      "categorySlug": "gaming",
+      "price": 59,
+      "oldPrice": 69,
+      "images": ["/images/mock/xbox-controller.jpg"],
+      "isFeatured": false,
+      "isBestSeller": false,
+      "createdAt": "2025-12-14T10:00:00.000Z"
+    },
+
+    {
+      "id": "p-3027",
+      "title": "MacBook Air M2",
+      "categorySlug": "laptops",
+      "price": 1199,
+      "images": ["/images/mock/macbook-air-m2.jpg"],
+      "isFeatured": true,
+      "isBestSeller": false,
+      "createdAt": "2026-02-05T10:00:00.000Z"
+    },
+    {
+      "id": "p-3028",
+      "title": "MacBook Pro 14 (M3)",
+      "categorySlug": "laptops",
+      "price": 1999,
+      "images": ["/images/mock/macbook-pro-14-m3.jpg"],
+      "isFeatured": true,
+      "isBestSeller": true,
+      "createdAt": "2026-02-26T10:00:00.000Z"
+    },
+    {
+      "id": "p-3029",
+      "title": "Dell XPS 13",
+      "categorySlug": "laptops",
+      "price": 1299,
+      "oldPrice": 1399,
+      "images": ["/images/mock/dell-xps-13.jpg"],
+      "isFeatured": false,
+      "isBestSeller": true,
+      "createdAt": "2026-01-30T10:00:00.000Z"
+    },
+    {
+      "id": "p-3030",
+      "title": "Lenovo ThinkPad X1 Carbon",
+      "categorySlug": "laptops",
+      "price": 1599,
+      "images": ["/images/mock/thinkpad-x1-carbon.jpg"],
+      "isFeatured": false,
+      "isBestSeller": false,
+      "createdAt": "2025-12-20T10:00:00.000Z"
+    },
+    {
+      "id": "p-3031",
+      "title": "ASUS ROG Zephyrus G14",
+      "categorySlug": "laptops",
+      "price": 1499,
+      "images": ["/images/mock/rog-g14.jpg"],
+      "isFeatured": true,
+      "isBestSeller": true,
+      "createdAt": "2026-02-17T10:00:00.000Z"
+    },
+    {
+      "id": "p-3032",
+      "title": "HP Spectre x360",
+      "categorySlug": "laptops",
+      "price": 1399,
+      "images": ["/images/mock/hp-spectre-x360.jpg"],
+      "isFeatured": false,
+      "isBestSeller": false,
+      "createdAt": "2025-11-25T10:00:00.000Z"
+    },
+    {
+      "id": "p-3033",
+      "title": "Acer Swift 3",
+      "categorySlug": "laptops",
+      "price": 699,
+      "oldPrice": 799,
+      "images": ["/images/mock/acer-swift-3.jpg"],
+      "isFeatured": false,
+      "isBestSeller": true,
+      "createdAt": "2025-12-08T10:00:00.000Z"
+    },
+    {
+      "id": "p-3034",
+      "title": "Microsoft Surface Laptop 5",
+      "categorySlug": "laptops",
+      "price": 999,
+      "images": ["/images/mock/surface-laptop-5.jpg"],
+      "isFeatured": false,
+      "isBestSeller": true,
+      "createdAt": "2026-01-12T10:00:00.000Z"
+    },
+
+    {
+      "id": "p-3035",
+      "title": "iPad Pro",
+      "categorySlug": "tablets",
+      "price": 899,
+      "oldPrice": 999,
+      "images": ["/images/mock/ipad-pro.jpg"],
+      "isFeatured": false,
+      "isBestSeller": false,
+      "createdAt": "2026-02-12T10:00:00.000Z"
+    },
+    {
+      "id": "p-3036",
+      "title": "iPad Air",
+      "categorySlug": "tablets",
+      "price": 599,
+      "images": ["/images/mock/ipad-air.jpg"],
+      "isFeatured": true,
+      "isBestSeller": true,
+      "createdAt": "2026-02-23T10:00:00.000Z"
+    },
+    {
+      "id": "p-3037",
+      "title": "iPad (10th gen)",
+      "categorySlug": "tablets",
+      "price": 449,
+      "images": ["/images/mock/ipad-10.jpg"],
+      "isFeatured": false,
+      "isBestSeller": true,
+      "createdAt": "2026-01-22T10:00:00.000Z"
+    },
+    {
+      "id": "p-3038",
+      "title": "Samsung Galaxy Tab S9",
+      "categorySlug": "tablets",
+      "price": 799,
+      "oldPrice": 849,
+      "images": ["/images/mock/tab-s9.jpg"],
+      "isFeatured": false,
+      "isBestSeller": false,
+      "createdAt": "2025-12-26T10:00:00.000Z"
+    },
+    {
+      "id": "p-3039",
+      "title": "Microsoft Surface Pro 9",
+      "categorySlug": "tablets",
+      "price": 999,
+      "images": ["/images/mock/surface-pro-9.jpg"],
+      "isFeatured": false,
+      "isBestSeller": false,
+      "createdAt": "2026-01-07T10:00:00.000Z"
+    },
+    {
+      "id": "p-3040",
+      "title": "Lenovo Tab P12",
+      "categorySlug": "tablets",
+      "price": 349,
+      "images": ["/images/mock/lenovo-tab-p12.jpg"],
+      "isFeatured": false,
+      "isBestSeller": true,
+      "createdAt": "2025-11-12T10:00:00.000Z"
+    },
+    {
+      "id": "p-3041",
+      "title": "Amazon Fire HD 10",
+      "categorySlug": "tablets",
+      "price": 149,
+      "oldPrice": 179,
+      "images": ["/images/mock/fire-hd-10.jpg"],
+      "isFeatured": false,
+      "isBestSeller": true,
+      "createdAt": "2025-12-01T10:00:00.000Z"
+    },
+    {
+      "id": "p-3042",
+      "title": "Xiaomi Pad 6",
+      "categorySlug": "tablets",
+      "price": 329,
+      "images": ["/images/mock/xiaomi-pad-6.jpg"],
+      "isFeatured": true,
+      "isBestSeller": false,
+      "createdAt": "2026-01-16T10:00:00.000Z"
+    },
+
+    {
+      "id": "p-3043",
+      "title": "Apple Watch Series 9",
+      "categorySlug": "wearables",
+      "price": 399,
+      "images": ["/images/mock/apple-watch-9.jpg"],
+      "isFeatured": true,
+      "isBestSeller": true,
+      "createdAt": "2026-02-19T10:00:00.000Z"
+    },
+    {
+      "id": "p-3044",
+      "title": "Apple Watch Ultra 2",
+      "categorySlug": "wearables",
+      "price": 799,
+      "images": ["/images/mock/apple-watch-ultra-2.jpg"],
+      "isFeatured": false,
+      "isBestSeller": false,
+      "createdAt": "2026-01-27T10:00:00.000Z"
+    },
+    {
+      "id": "p-3045",
+      "title": "Samsung Galaxy Watch 6",
+      "categorySlug": "wearables",
+      "price": 299,
+      "oldPrice": 329,
+      "images": ["/images/mock/galaxy-watch-6.jpg"],
+      "isFeatured": false,
+      "isBestSeller": true,
+      "createdAt": "2025-12-10T10:00:00.000Z"
+    },
+    {
+      "id": "p-3046",
+      "title": "Fitbit Charge 6",
+      "categorySlug": "wearables",
+      "price": 159,
+      "images": ["/images/mock/fitbit-charge-6.jpg"],
+      "isFeatured": false,
+      "isBestSeller": true,
+      "createdAt": "2025-11-20T10:00:00.000Z"
+    },
+    {
+      "id": "p-3047",
+      "title": "Oura Ring Gen 3",
+      "categorySlug": "wearables",
+      "price": 299,
+      "images": ["/images/mock/oura-ring-3.jpg"],
+      "isFeatured": false,
+      "isBestSeller": false,
+      "createdAt": "2025-12-24T10:00:00.000Z"
+    },
+    {
+      "id": "p-3048",
+      "title": "Meta Quest 3",
+      "categorySlug": "wearables",
+      "price": 499,
+      "oldPrice": 549,
+      "images": ["/images/mock/meta-quest-3.jpg"],
+      "isFeatured": true,
+      "isBestSeller": true,
+      "createdAt": "2026-02-24T10:00:00.000Z"
+    },
+
+    {
+      "id": "p-3049",
+      "title": "Anker PowerCore 20K",
+      "categorySlug": "audio",
+      "price": 49,
+      "images": ["/images/mock/anker-powercore-20k.jpg"],
+      "isFeatured": false,
+      "isBestSeller": false,
+      "createdAt": "2025-12-06T10:00:00.000Z"
+    },
+    {
+      "id": "p-3050",
+      "title": "Logitech MX Master 3S",
+      "categorySlug": "laptops",
+      "price": 99,
+      "oldPrice": 119,
+      "images": ["/images/mock/mx-master-3s.jpg"],
+      "isFeatured": false,
+      "isBestSeller": true,
+      "createdAt": "2026-01-04T10:00:00.000Z"
+    }
+  ]
+}
