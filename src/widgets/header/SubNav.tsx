@@ -21,7 +21,7 @@ const items = [
 
 export default function SubNav() {
   return (
-    <div className="hidden md:block w-full bg-[#111]">
+    <div className="hidden lg:block w-full bg-[#111]">
       <div className="mx-auto max-w-295">
         <nav className="grid grid-cols-6 items-center h-12 text-sm text-[#979797]">
           {items.map(({ label, href, Icon }, index) => (
